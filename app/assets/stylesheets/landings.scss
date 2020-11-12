@@ -1,0 +1,12 @@
+// Place all the styles related to the Landings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// landings home header image
+.hero-img {
+    background-image: url("jumpr-group.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
