@@ -2,11 +2,50 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+//tools for gridding
+.borders {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red green blue yellow;
+}
 // landings home header image
+.hero-container{
+    height: 550px;
+}
+
 .hero-img {
-    background-image: url("jumpr-group.jpg");
+    background-image: url("female-startup.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
+}
+
+.backdrop {
+    background-color: rgba(235,76,78,.6);
+    border-radius: 25px;
+}
+.gray-back {
+    // background-color: rgba(95,95,95,.5);
+    width: 10%;
+    height: 5px;
+    border-radius: 25px;
+}
+.lit-red {
+    background-color: rgba(235,76,78,.5);
+    
+}
+
+.lit-purple {
+    text-decoration: underline;
+    text-decoration-color: rgba(139,39,176,.5);
+    text-decoration-thickness: 5px;
+}
+// quote beneath Dreamjumpr
+// .camus-quote {
+//     font-size: 40px !important; 
+// }
+.height-fix {
+    height: 100px !important;
 }
