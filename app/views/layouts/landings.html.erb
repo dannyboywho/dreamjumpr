@@ -10,10 +10,12 @@
   </head>
   
   <%= yield :landing_nav %>
+  
   <body>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <%= yield :home%>
+    <%= yield :dashboard %>
   
   </body>
 </html>

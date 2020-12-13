@@ -8,6 +8,10 @@
     border-width: 5px;
     border-color: rgb(235,76,78) rgb(237,230,124) rgb(147,42,168) rgb(237,230,124);
 }
+// to solve fixed navbar covering content
+body {
+    padding-top: 50px
+}
 // landings home header image
 .hero-container{
     height: 550px;
@@ -47,5 +51,8 @@
 //     font-size: 40px !important; 
 // }
 .height-fix {
-    height: 100px !important;
+    height: 15% !important;
 }
+
+// css for dashboard
+
