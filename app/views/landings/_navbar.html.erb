@@ -35,7 +35,7 @@
               <%= link_to "Dashboard", profiles_dashboard_path, class:"nav-link" %>
             </li>
             <li class="nav-item">
-              <%= link_to "LogOut", destroy_user_session_path, class:"nav-link" %>
+              <%= button_to "Log out", destroy_user_session_path, method: :delete, class:"nav-link" %>
             </li>
             <%end%>
           </ul>
