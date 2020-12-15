@@ -1,0 +1,39 @@
+<% content_for :dashboard do %>
+<%= render 'landings/navbar'%>
+<div class= "container">
+    
+    
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Hello <%= @user.first_name %>! </h1>
+        </div>
+    </div>
+    
+    <% if @user.set_dash == false %>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Let's Do this!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Form Goes Here</p>
+            </div>
+        </div>
+
+    <%else%>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Your Dashboard is set</h2>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Hello  </h1>
+            </div>
+        </div>    
+        <p>Find me in app/views/profiles/dashboard.html.erb</p>
+    <%end%>
+</div>
+    <%end%>

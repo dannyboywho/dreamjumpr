@@ -51,6 +51,8 @@ group :test do
 end
 # User Authentication
 gem 'devise'
+# ActiveAdmin for admin dashboard
+gem 'activeadmin'
 # trying simple form for forms
 gem 'simple_form'
 

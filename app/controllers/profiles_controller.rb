@@ -4,4 +4,8 @@ class ProfilesController < ApplicationController
     @user = User.find_by(id: current_user.id)
   end
 
+  def dashboard_set_up
+    @user = User.find_by(id: current_user.id)
+  end
+
 end
