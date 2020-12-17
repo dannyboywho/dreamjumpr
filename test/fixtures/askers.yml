@@ -1,0 +1,35 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  industry_type: MyString
+  industry_code: MyString
+  company_name: MyString
+  demographic_served: MyString
+  notes_status: MyText
+  contact_date: 2020-12-16
+  contact_name: MyString
+  title: MyString
+  contact_phone: MyString
+  contact_email: MyString
+  region: MyString
+  funding_type: MyString
+  funding_needed: 9.99
+  funding_available: 9.99
+  percent_funded: 9.99
+
+two:
+  industry_type: MyString
+  industry_code: MyString
+  company_name: MyString
+  demographic_served: MyString
+  notes_status: MyText
+  contact_date: 2020-12-16
+  contact_name: MyString
+  title: MyString
+  contact_phone: MyString
+  contact_email: MyString
+  region: MyString
+  funding_type: MyString
+  funding_needed: 9.99
+  funding_available: 9.99
+  percent_funded: 9.99
