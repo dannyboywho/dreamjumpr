@@ -1,7 +1,4 @@
-<%= form_with model: user.update do |form| %>
- <%= form.check_box :giver %>
- <%= form.submit "update" %>
-<% end %>
+<%= form_for @user, url => { :controller => "devise_users", action => "update"}, html => { :class => "form-horizontal-center"}, :method => :put d%>
 <!-- <form>
     <div class="form-group">
       <label for="exampleFormControlInput1">Email address</label>
